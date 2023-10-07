@@ -29,6 +29,11 @@ class _MainPage extends StatelessWidget{
       body: const Center(
         child: Text('Test Firebase', style: TextStyle(fontSize: 24,color: Colors.lime)),
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: (){},
+        backgroundColor: Colors.lime,
+        child: const Icon(Icons.add),
+      )
     );
   }
 }
